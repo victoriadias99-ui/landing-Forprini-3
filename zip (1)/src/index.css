@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-packstyle-green: #22a055;
+  --color-packstyle-green-dark: #1b8044;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
