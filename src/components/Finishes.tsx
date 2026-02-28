@@ -40,11 +40,11 @@ export default function Finishes() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-[#FF9EDE]">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="flex items-center justify-center gap-2 text-blue-600 font-bold text-sm mb-4 tracking-wider">
-            <div className="w-4 h-4 bg-blue-600 rounded-sm transform rotate-45"></div>
+          <div className="flex items-center justify-center gap-2 text-[#7F35F1] font-bold text-sm mb-4 tracking-wider">
+            <div className="w-4 h-4 bg-[#7F35F1] rounded-sm transform rotate-45"></div>
             LOS ACABADOS Y LOS<br/>COMPLEMENTOS
           </div>
           <h2 className="text-3xl font-bold text-gray-900">
