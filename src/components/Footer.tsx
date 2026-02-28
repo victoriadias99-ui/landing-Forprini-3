@@ -45,7 +45,7 @@ export default function Footer() {
                 <span className="text-[10px]">Privacidad - Términos</span>
                 <div className="ml-auto w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">↻</div>
               </div>
-              <button type="submit" className="bg-[#1b8044] px-8 py-3 rounded font-bold hover:bg-[#156636] transition-colors">
+              <button type="submit" className="bg-[#C4EB00] text-black px-8 py-3 rounded font-bold hover:bg-[#A5C600] transition-colors">
                 Enviar
               </button>
             </div>
@@ -132,7 +132,7 @@ export default function Footer() {
       </div>
       
       {/* Floating Chat Button */}
-      <button className="fixed bottom-6 right-6 w-14 h-14 bg-packstyle-green rounded-full shadow-2xl flex items-center justify-center text-white hover:bg-packstyle-green-dark transition-colors z-50 border-4 border-white">
+      <button className="fixed bottom-6 right-6 w-14 h-14 bg-[#C4EB00] rounded-full shadow-2xl flex items-center justify-center text-black hover:bg-[#A5C600] transition-colors z-50 border-4 border-white">
         <MessageCircle size={24} />
       </button>
     </footer>

@@ -19,7 +19,7 @@ export default function Combine() {
           <p className="text-gray-600 mb-8 leading-relaxed">
             Materiales, formas, acabados, accesorios y gráficos son las propiedades que combinamos de infinitas formas según tus necesidades para que tu packaging sea único. Puedes configurar tu bolsa haciendo que hable de tu producto y nosotros, gracias a nuestras tecnologías digitales, lo producimos y te lo entregamos en poco tiempo.
           </p>
-          <button className="bg-packstyle-green text-white px-6 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-packstyle-green-dark transition-colors">
+          <button className="bg-[#C4EB00] text-black px-6 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-[#A5C600] transition-colors">
             DESCUBRE CÓMO FUNCIONA <ArrowRight size={16} />
           </button>
         </div>

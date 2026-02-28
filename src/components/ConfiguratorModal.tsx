@@ -18,15 +18,15 @@ export default function ConfiguratorModal({ onClose }: { onClose: () => void }) 
   });
 
   const products = [
-    "Bolsas doypack",
-    "Bolsas planas",
-    "Bolsas de fondo plano",
-    "Bolsas con fuelle lateral",
-    "Sobres de papel",
-    "Bolsas al vacío",
-    "Bolsas compostables",
-    "Bolsas metalizadas",
-    "Bolsas transparentes"
+    { name: "Bolsas doypack", image: "https://picsum.photos/seed/doypack/300/300" },
+    { name: "Bolsas planas", image: "https://picsum.photos/seed/flatbag/300/300" },
+    { name: "Tubos cosméticos", image: "https://picsum.photos/seed/tube/300/300" },
+    { name: "Frascos", image: "https://picsum.photos/seed/jar/300/300" },
+    { name: "Goteros", image: "https://picsum.photos/seed/dropper/300/300" },
+    { name: "Pack completo", image: "https://picsum.photos/seed/fullpack/300/300" },
+    { name: "Bolsas compostables", image: "https://picsum.photos/seed/eco/300/300" },
+    { name: "Bolsas metalizadas", image: "https://picsum.photos/seed/metal/300/300" },
+    { name: "Bolsas transparentes", image: "https://picsum.photos/seed/clear/300/300" }
   ];
 
   const formatos = ["4.5x13 (cm)", "8x11 (cm)", "15x17 (cm)", "19x27 (cm)", "30x35 (cm)"];
@@ -81,14 +81,14 @@ export default function ConfiguratorModal({ onClose }: { onClose: () => void }) 
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {products.map(p => (
                   <button 
-                    key={p} 
-                    onClick={() => setSelectedProduct(p)}
+                    key={p.name} 
+                    onClick={() => setSelectedProduct(p.name)}
                     className="p-6 border-2 border-gray-100 rounded-xl hover:border-packstyle-green hover:bg-green-50 transition-all text-center font-bold text-gray-800 shadow-sm hover:shadow-md"
                   >
-                    <div className="w-full aspect-square bg-gray-100 rounded-lg mb-4 flex items-center justify-center text-gray-400">
-                      <img src={`https://picsum.photos/seed/${p}/200`} alt={p} className="w-full h-full object-cover rounded-lg" referrerPolicy="no-referrer" />
+                    <div className="w-full aspect-square bg-gray-100 rounded-lg mb-4 flex items-center justify-center text-gray-400 overflow-hidden">
+                      <img src={p.image} alt={p.name} className="w-full h-full object-contain hover:scale-110 transition-transform duration-300" referrerPolicy="no-referrer" />
                     </div>
-                    {p}
+                    {p.name}
                   </button>
                 ))}
               </div>
@@ -347,7 +347,7 @@ export default function ConfiguratorModal({ onClose }: { onClose: () => void }) 
                   <button 
                     onClick={handleSubmit}
                     disabled={!isFormValid}
-                    className={`w-full py-4 rounded-xl font-bold text-xl transition-all shadow-lg ${isFormValid ? 'bg-packstyle-green text-white hover:bg-packstyle-green-dark hover:shadow-xl' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
+                    className={`w-full py-4 rounded-xl font-bold text-xl transition-all shadow-lg ${isFormValid ? 'bg-[#C4EB00] text-black hover:bg-[#A5C600] hover:shadow-xl' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
                   >
                     Enviar cotización
                   </button>

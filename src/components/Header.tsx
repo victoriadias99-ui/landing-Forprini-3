@@ -33,7 +33,7 @@ export default function Header({ onOpenConfigurator }: { onOpenConfigurator?: ()
           <a href="#" className="flex items-center gap-1 hover:text-packstyle-green">MERCADOS <ChevronDown size={14} /></a>
           <a href="#materiales" className="flex items-center gap-1 hover:text-packstyle-green">MATERIALES <ChevronDown size={14} /></a>
           <a href="#" className="flex items-center gap-1 hover:text-packstyle-green">ACERCA DE <ChevronDown size={14} /></a>
-          <button onClick={onOpenConfigurator} className="bg-packstyle-green text-white px-4 py-2 rounded-full flex items-center gap-2 hover:bg-packstyle-green-dark transition-colors">
+          <button onClick={onOpenConfigurator} className="bg-[#C4EB00] text-black px-4 py-2 rounded-full flex items-center gap-2 hover:bg-[#A5C600] transition-colors">
              CONFIGURAR <ShoppingCart size={16} />
           </button>
         </nav>

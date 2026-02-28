@@ -97,7 +97,7 @@ export default function Materials() {
               key={i}
               onClick={() => setActiveTab(i)}
               className={`px-4 py-2 rounded-full text-xs font-bold tracking-wider transition-colors ${
-                activeTab === i ? 'bg-packstyle-green text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                activeTab === i ? 'bg-[#C4EB00] text-black' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
               {tab.name}
@@ -141,7 +141,7 @@ export default function Materials() {
                 <span className="text-xs font-bold">{currentMaterial.symbol}</span>
               </div>
             </div>
-            <button className="border border-packstyle-green text-packstyle-green px-6 py-2 rounded-full text-sm font-medium flex items-center gap-2 hover:bg-packstyle-green hover:text-white transition-colors">
+            <button className="border border-[#C4EB00] text-black px-6 py-2 rounded-full text-sm font-medium flex items-center gap-2 hover:bg-[#C4EB00] transition-colors">
               MÁS INFORMACIÓN <div className="w-4 h-4 border border-current rounded-full flex items-center justify-center text-[10px]">+</div>
             </button>
           </div>

@@ -4,7 +4,7 @@ export default function Products({ onOpenConfigurator }: { onOpenConfigurator?: 
   const products = [
     {
       name: "Bolsas doypack",
-      image: "https://picsum.photos/seed/doypack/300/400",
+      image: "https://picsum.photos/seed/doypack-bag/400/500",
       features: [
         "LIGERAS",
         "PERSONALIZABLES",
@@ -15,7 +15,7 @@ export default function Products({ onOpenConfigurator }: { onOpenConfigurator?: 
     },
     {
       name: "Bolsas planas",
-      image: "https://picsum.photos/seed/planas/300/400",
+      image: "https://picsum.photos/seed/flat-bag/400/500",
       features: [
         "LIGERAS Y FLEXIBLES",
         "PERSONALIZABLES",
@@ -41,7 +41,7 @@ export default function Products({ onOpenConfigurator }: { onOpenConfigurator?: 
               ))}
             </ul>
             <p className="font-bold text-gray-900 mb-4">A partir de 50 piezas</p>
-            <button onClick={onOpenConfigurator} className="w-full max-w-xs bg-packstyle-green text-white py-3 rounded-full font-medium flex items-center justify-center gap-2 hover:bg-packstyle-green-dark transition-colors mb-4">
+            <button onClick={onOpenConfigurator} className="w-full max-w-xs bg-[#C4EB00] text-black py-3 rounded-full font-medium flex items-center justify-center gap-2 hover:bg-[#A5C600] transition-colors mb-4">
               CONFIGURAR <ShoppingCart size={18} />
             </button>
             <a href="#" className="text-packstyle-green text-sm flex items-center gap-1 hover:underline">
