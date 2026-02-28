@@ -18,7 +18,7 @@ export default function Hero() {
       title: "Soluciones de\nembalaje\npersonalizadas\npara tu\nmarca",
       description: "Descubre nuestra amplia gama de envases premium diseñados para destacar en el estante y proteger tus productos.",
       buttonText: "VER CATÁLOGO",
-      image: "https://picsum.photos/seed/packaging-solutions/800/600",
+      image: "https://picsum.photos/seed/packaging-premium/800/600",
       badges: [
         { text: "Premium", className: "top-0 right-10 bg-white px-4 py-2 rounded-full font-bold text-xl text-gray-800 shadow-lg transform rotate-12 z-20" },
         { text: "Quality", className: "-top-6 right-0 bg-white px-6 py-3 rounded-full font-bold text-2xl text-pink-500 shadow-lg transform -rotate-6 z-20 border-2 border-pink-500" },
@@ -32,7 +32,7 @@ export default function Hero() {
       title: "Bolsas\nstand-up pouch\nflexibles y\nresistentes",
       description: "La solución perfecta para alimentos, cosméticos y más. Totalmente personalizables y con barreras de alta protección.",
       buttonText: "CONFIGURAR AHORA",
-      image: "https://picsum.photos/seed/standup-pouch/800/600",
+      image: "https://picsum.photos/seed/packaging-pouch/800/600",
       badges: [
         { text: "Eco", className: "top-0 right-10 bg-white px-4 py-2 rounded-full font-bold text-xl text-green-600 shadow-lg transform rotate-12 z-20" },
         { text: "Flexible", className: "-top-6 right-0 bg-white px-6 py-3 rounded-full font-bold text-2xl text-green-500 shadow-lg transform -rotate-6 z-20 border-2 border-green-500" },
@@ -46,7 +46,7 @@ export default function Hero() {
       title: "Envases de\nvidrio y\nfrascos\nelegantes",
       description: "Dale a tu producto un toque de distinción con nuestros frascos de vidrio. Ideales para cosmética y productos gourmet.",
       buttonText: "SABER MÁS",
-      image: "https://picsum.photos/seed/glass-jars/800/600",
+      image: "https://picsum.photos/seed/packaging-glass/800/600",
       badges: [
         { text: "Glass", className: "top-0 right-10 bg-white px-4 py-2 rounded-full font-bold text-xl text-purple-800 shadow-lg transform rotate-12 z-20" },
         { text: "Premium", className: "-top-6 right-0 bg-white px-6 py-3 rounded-full font-bold text-2xl text-purple-500 shadow-lg transform -rotate-6 z-20 border-2 border-purple-500" },
@@ -117,23 +117,23 @@ export default function Hero() {
               </h1>
               {/* Red bag on F */}
               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.5 }} className="absolute -top-[10vw] -left-[2vw] w-[12vw]">
-                <img src="/input_file_0.png" alt="Mascota Roja" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+                <img src="/Copia de Personaje4.png" alt="Mascota Roja" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
               </motion.div>
               {/* Green tube on O */}
               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }} className="absolute top-[3vw] left-[12vw] w-[9vw]">
-                <img src="/input_file_2.png" alt="Mascota Verde" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+                <img src="/Copia de Personaje8.png" alt="Mascota Verde" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
               </motion.div>
               {/* Blue jar on R */}
               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.7 }} className="absolute -top-[11vw] left-[25vw] w-[11vw]">
-                <img src="/input_file_1.png" alt="Mascota Azul" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+                <img src="/Copia de Personaje3.png" alt="Mascota Azul" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
               </motion.div>
               {/* Purple pump on P */}
               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.8 }} className="absolute -top-[12vw] left-[41vw] w-[11vw]">
-                <img src="/input_file_3.png" alt="Mascota Morada" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+                <img src="/Copia de Personaje7.png" alt="Mascota Morada" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
               </motion.div>
               {/* Pink dropper on last I */}
               <motion.div initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.9 }} className="absolute top-[1vw] -right-[9vw] w-[9vw]">
-                <img src="/input_file_4.png" alt="Mascota Rosa" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+                <img src="/Copia de Personaje5.png" alt="Mascota Rosa" className="w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
               </motion.div>
             </div>
           </div>

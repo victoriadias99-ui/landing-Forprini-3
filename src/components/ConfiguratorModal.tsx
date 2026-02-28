@@ -154,7 +154,7 @@ export default function ConfiguratorModal({ onClose }: { onClose: () => void }) 
                         className={`p-4 rounded-xl border-2 transition-all text-center ${material === m ? 'border-packstyle-green bg-green-50 ring-2 ring-packstyle-green/20' : 'border-gray-100 hover:border-packstyle-green'}`}
                       >
                         <div className="w-full aspect-square bg-gray-100 rounded-lg mb-3 overflow-hidden">
-                          <img src={`https://picsum.photos/seed/${m}/150`} alt={m} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                          <img src={`https://picsum.photos/seed/${m.replace(/\s+/g, '-')}/150`} alt={m} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                         </div>
                         <span className="text-xs font-bold block">{m}</span>
                       </button>
@@ -177,7 +177,7 @@ export default function ConfiguratorModal({ onClose }: { onClose: () => void }) 
                         className={`p-4 rounded-xl border-2 transition-all text-center ${acabado === a ? 'border-packstyle-green bg-green-50 ring-2 ring-packstyle-green/20' : 'border-gray-100 hover:border-packstyle-green'}`}
                       >
                         <div className="w-full aspect-video bg-gray-100 rounded-lg mb-3 overflow-hidden">
-                          <img src={`https://picsum.photos/seed/${a}/200`} alt={a} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                          <img src={`https://picsum.photos/seed/${a.replace(/\s+/g, '-')}/200`} alt={a} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                         </div>
                         <span className="text-xs font-bold block">{a}</span>
                       </button>

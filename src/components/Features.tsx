@@ -9,7 +9,7 @@ export default function Features() {
   ];
 
   return (
-    <section className="bg-[#FDEDD4] py-8 border-b border-gray-200">
+    <section className="bg-[#FDF5E6] py-8 border-b border-gray-200">
       <div className="max-w-5xl mx-auto px-4 flex justify-between items-start text-center">
         {features.map((f, i) => (
           <div key={i} className="flex flex-col items-center gap-3 flex-1">
